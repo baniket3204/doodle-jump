@@ -5,6 +5,7 @@
     position: relative;
     font-size: 200px;
     text-align: center;
+    
 }
 
 .doodler{
@@ -21,4 +22,11 @@
     height: 15px;
     background-color: green;
     position: absolute;
+}
+
+#foot{
+    font-size: 20;
+    text-align: center;
+    position: relative;
+    top : 130px;
 }
