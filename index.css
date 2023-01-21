@@ -22,3 +22,10 @@
     background-color: green;
     position: absolute;
 }
+
+#foot{
+    font-size: 20;
+    text-align: center;
+    position: relative;
+    top : 130px;
+}
