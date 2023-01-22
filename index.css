@@ -1,11 +1,17 @@
+
+
 .grid{
+    top : 20px;
     width: 400px;
     height: 600px;
-    background-color: rgb(248, 248, 77);
+    background-image: linear-gradient( 95.2deg, rgba(173,252,234,1) 26.8%, rgba(192,229,246,1) 64% );
     position: relative;
     font-size: 200px;
     text-align: center;
-    
+    left: 555px ;
+    border-color: black;
+    border-style: solid;
+    border-radius: 20px;
 }
 
 .doodler{
@@ -25,8 +31,10 @@
 }
 
 #foot{
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
     font-size: 20;
     text-align: center;
     position: relative;
-    top : 130px;
+    top : 100px;
 }

@@ -94,6 +94,7 @@ document.addEventListener("DOMContentLoaded" , () =>
       if(doodlerbottomSpace <= 0 )
       {
         gameOver()
+        
       }
       platforms.forEach(platform => {
        if(
@@ -109,7 +110,6 @@ document.addEventListener("DOMContentLoaded" , () =>
         jump()
        }
        
-
       })
 
     } , 30)
@@ -186,8 +186,7 @@ document.addEventListener("DOMContentLoaded" , () =>
         jump();
         document.addEventListener("keyup" , control)
     }
-
+    document.addEventListener("keypress" , start)
   }
-  
   start()
 })
